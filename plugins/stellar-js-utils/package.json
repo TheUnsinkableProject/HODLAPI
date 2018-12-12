@@ -1,0 +1,73 @@
+{
+  "_from": "git://github.com/StellarKit/stellar-js-utils.git",
+  "_id": "stellar-js-utils@1.0.2",
+  "_inBundle": false,
+  "_location": "/stellar-js-utils",
+  "_phantomChildren": {
+    "follow-redirects": "1.4.1",
+    "is-buffer": "1.1.6"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/StellarKit/stellar-js-utils.git",
+    "rawSpec": "git://github.com/StellarKit/stellar-js-utils.git",
+    "saveSpec": "git://github.com/StellarKit/stellar-js-utils.git",
+    "fetchSpec": "git://github.com/StellarKit/stellar-js-utils.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/StellarKit/stellar-js-utils.git#f43c988c15ff8df60abf3f1c93adb61a17697408",
+  "_spec": "git://github.com/StellarKit/stellar-js-utils.git",
+  "_where": "D:\\vntpay",
+  "author": {
+    "name": "Steve Gehrman",
+    "email": "steve@distantfutu.re"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@ledgerhq/hw-app-str": "^4.0.0",
+    "@ledgerhq/hw-transport-u2f": "^4.0.0",
+    "axios": "^0.17.1",
+    "jquery": "^3.3.1",
+    "stellar-sdk": "^0.8.0"
+  },
+  "deprecated": false,
+  "description": "Simplified JS API for Stellar",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.17.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.2.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "vuetify": "^0.17.7",
+    "webpack": "^3.11.0"
+  },
+  "homepage": "https://stellarkit.io",
+  "keywords": [
+    "stellar",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "dist/build.js",
+  "name": "stellar-js-utils",
+  "repository": {
+    "type": "git",
+    "url": "github.com/StellarKit/stellar-js-utils"
+  },
+  "scripts": {
+    "dist": "webpack --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
